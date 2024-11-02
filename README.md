@@ -1,6 +1,6 @@
-<h1 align="center"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=50&duration=2800&pause=2000&color=1865F7&width=1020&height=100&lines=Hey%2C+I'm+Nur+Welcome+to+my+Profile++%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB" alt="Typing SVG" /></h1>
-
-###
+<h1 align="center"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=42&duration=2800&pause=2000&color=F7F7F7&width=940&height=70&lines=Hey%2C+I'm+Nur.+Welcome+to+my+Profile+%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB" alt="Typing SVG" /></h1>
+<img src="https://github.com/user-attachments/assets/96adbac6-fc66-49f3-8ffe-b4ae7c71b0a6" width="100%"> 
+<!-- <img src="https://github.com/user-attachments/assets/8ea4488d-e850-4396-9987-14dfbe6f0e64" width="100%">  -->
 
 ```zsh
 > neofetch
@@ -14,28 +14,28 @@ NurTheDev@github
 Name: Nur Islam
 Pronouns: He/Him
 Location: Dhaka, Bangladesh
-Uptime : 21, Years
+Uptime : 21 Years
 OS: Arch Linux x86_64
-Shell: zsh 5.8
+Shell: zsh 5.9
 Kernel : Linux
 IDE : VsCode
-Languages: JavaScript
-Learning: Node.js, Express, PostgreSQL,
-          React, CPP, MongoDB, MySQL, RestApi,
-Hobbies: Cooding, Traveling, Gaming, Doing Nothing
+Learning: JavaScript, Node.js, Express, React, MongoDB
+Hobbies: Cooding, Traveling, Gaming
+Favourite Timepass: Doing Nothing
 Email: nur756.islam@gmail.com
 Linkdin: nur-islam1
 ```
+<br>
 <img align='right' src="https://github.com/user-attachments/assets/8c749c14-d44c-4647-8983-86626e4aba1e" width="230"> 
+
+
 ### SKILLS <img src="https://media.giphy.com/media/kkQsJyJBMZsk0/giphy.gif" width="60">
->>MERN Stack Developer (JS | Express | React | Node | Next | MongoDB)<br>
->>Linux | Git <br>
->>Bootstrap | Tailwind <br>
+>>Programming Language : JavaScript (MERN)<br>
+>>OS Knowladge         : Linux | Widnows | MacOS <br>
+>>Framworks            : Bootstrap | Tailwind | React <br>
 >>Cyber Security Enthusiast
-
-
 <br>
-<br>
+<hr width=100%/>
 <br>
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=NurTheDev&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
@@ -43,7 +43,7 @@ Linkdin: nur-islam1
 </div>
 
 ###
-
+<br>
 <img align="right" height="150" src="https://camo.githubusercontent.com/5046cb083418fd1922b7f5990e594c3bb06f5d87e5516cd8839ae0aa48b3aec4/68747470733a2f2f696d616765732e73717561726573706163652d63646e2e636f6d2f636f6e74656e742f76312f3537363966633430316236333162616231616464623261622f313534313538303631313632342d5445363451474b524a4738535741495553374e532f6b6531375a77644742546f6464493870446d34386b506f73776c7a6a53564d4d2d53784f703743563539425a772d7a505067646e346a557756634a45315a7657515578776b6d794578676c4e714770304976544a5a616d574c49327a76595748384b332d735f3479737a63703272795449304871544f6161556f68724938504936465879386339505774426c7141566c555335697a7064634958445a71445976707252715a32395077306f2f636f64696e672d667265616b2e676966"  />
 
 ###
