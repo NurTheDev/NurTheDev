@@ -26,10 +26,11 @@ Hobbies: Cooding, Traveling, Gaming, Doing Nothing
 Email: nur756.islam@gmail.com
 Linkdin: nur-islam1
 ```
+<img align='right' src="https://github.com/user-attachments/assets/8c749c14-d44c-4647-8983-86626e4aba1e" width="230"> 
 ### SKILLS <img src="https://media.giphy.com/media/kkQsJyJBMZsk0/giphy.gif" width="60">
->>Devops tools (Docker | Kubernetes | Jenkins | Ansible | Prometheus | Grafana)<br>
->>Machine learning | Cloud <br>
->>Bigdata | Hadoop<br>
+>>MERN Stack Developer (JS | Express | React | Node | Next | MongoDB)<br>
+>>Linux | Git <br>
+>>Bootstrap | Tailwind <br>
 >>Cyber Security Enthusiast
 
 
