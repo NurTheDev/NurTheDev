@@ -1,4 +1,4 @@
-<h1 align="center"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=22&duration=2800&pause=2000&color=1865F7&width=450&lines=Hey%2C+I'm+Nur+Welcome+to+my+Profile++%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB" alt="Typing SVG" /></h1>
+<h1 align="center"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=50&duration=2800&pause=2000&color=1865F7&width=1020&height=100&lines=Hey%2C+I'm+Nur+Welcome+to+my+Profile++%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB" alt="Typing SVG" /></h1>
 
 ###
 
