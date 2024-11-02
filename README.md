@@ -2,6 +2,31 @@
 
 ###
 
+```zsh
+> neofetch
+```
+
+<img align="left" src="https://i.ibb.co.com/8PfwB1x/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" alt="https://i.ibb.co.com/8PfwB1x/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="320" />
+
+```csharp
+NurTheDev@github
+-------------------------
+OS: Arch Linux x86_64
+Shell: zsh 5.8
+Kernel : Linux
+Pronouns: He/Him
+Location: Dhaka, Bangladesh
+Uptime : 21, Years
+IDE : VsCode
+Frameworks: React, Bootstrap
+Languages: JavaScript
+Learning: Node.js, Express, PostgreSQL,
+          React, CPP, MongoDB, MySQL, RestApi,
+Hobbies: Cooding, Traveling, Gaming, Doing Nothing
+Email: nur756.islam@gmail.com
+Linkdin: nur-islam1
+```
+
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=NurTheDev&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=NurTheDev&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
