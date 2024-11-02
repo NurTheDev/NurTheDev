@@ -11,14 +11,14 @@
 ```csharp
 NurTheDev@github
 -------------------------
-OS: Arch Linux x86_64
-Shell: zsh 5.8
-Kernel : Linux
+Name: Nur Islam
 Pronouns: He/Him
 Location: Dhaka, Bangladesh
 Uptime : 21, Years
+OS: Arch Linux x86_64
+Shell: zsh 5.8
+Kernel : Linux
 IDE : VsCode
-Frameworks: React, Bootstrap
 Languages: JavaScript
 Learning: Node.js, Express, PostgreSQL,
           React, CPP, MongoDB, MySQL, RestApi,
@@ -26,7 +26,16 @@ Hobbies: Cooding, Traveling, Gaming, Doing Nothing
 Email: nur756.islam@gmail.com
 Linkdin: nur-islam1
 ```
+### SKILLS <img src="https://github.com/user-attachments/assets/00df0353-4ec4-446d-bf9a-24090d31d4cb">
+>>Devops tools (Docker | Kubernetes | Jenkins | Ansible | Prometheus | Grafana)<br>
+>>Machine learning | Cloud <br>
+>>Bigdata | Hadoop<br>
+>>Cyber Security Enthusiast
 
+
+<br>
+<br>
+<br>
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=NurTheDev&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=NurTheDev&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
