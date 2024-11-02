@@ -26,7 +26,7 @@ Hobbies: Cooding, Traveling, Gaming, Doing Nothing
 Email: nur756.islam@gmail.com
 Linkdin: nur-islam1
 ```
-### SKILLS <img src="https://github.com/user-attachments/assets/00df0353-4ec4-446d-bf9a-24090d31d4cb">
+### SKILLS <img src="https://github.com/user-attachments/assets/00df0353-4ec4-446d-bf9a-24090d31d4cb" width="60">
 >>Devops tools (Docker | Kubernetes | Jenkins | Ansible | Prometheus | Grafana)<br>
 >>Machine learning | Cloud <br>
 >>Bigdata | Hadoop<br>
