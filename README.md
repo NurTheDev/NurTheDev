@@ -6,7 +6,7 @@
 > neofetch
 ```
 
-<img align="left" src="https://postimg.cc/xNJQVS6x" alt="https://postimg.cc/xNJQVS6x" width="320" height="auto" />
+<img align="left" src="https://i.postimg.cc/1XM36mwQ/Readme.gif" alt="https://i.postimg.cc/1XM36mwQ/Readme.gif" width="320" height="auto" />
 
 ```csharp
 NurTheDev@github
