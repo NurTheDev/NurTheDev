@@ -26,7 +26,7 @@ Email: nur756.islam@gmail.com
 Linkdin: nur-islam1
 ```
 <br>
-<img align='right' src="https://github.com/user-attachments/assets/8c749c14-d44c-4647-8983-86626e4aba1e" width="230"> 
+<img align='right' src="https://github.com/user-attachments/assets/8c749c14-d44c-4647-8983-86626e4aba1e" width="25%"> 
 
 
 ### SKILLS <img src="https://media.giphy.com/media/kkQsJyJBMZsk0/giphy.gif" width="60">
