@@ -14,16 +14,16 @@ NurTheDev@github
 Name: Nur Islam
 Pronouns: He/Him
 Location: Dhaka, Bangladesh
-Uptime : 21 Years
+Uptime : ∞ Years
 OS: Arch Linux x86_64
 Shell: zsh 5.9
 Kernel : Linux
-IDE : VsCode
+IDE : WebStorm
 Learning: JavaScript, Node.js, Express, React, MongoDB
 Hobbies: Cooding, Traveling, Gaming
 Favourite Timepass: Doing Nothing
 Email: nur756.islam@gmail.com
-Linkdin: nur-islam1
+Linkdin: nurthedev
 ```
 <br>
 <img align='right' src="https://github.com/user-attachments/assets/8c749c14-d44c-4647-8983-86626e4aba1e" width="25%"> 
