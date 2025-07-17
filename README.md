@@ -300,23 +300,16 @@ const codingStats = {
 
 [//]: # (</div>)
 
-[//]: # ()
-[//]: # (###)
+###
 
-[//]: # ()
-[//]: # (<br clear="both">)
+<br clear="both">
 
-[//]: # ()
-[//]: # (<img src="https://raw.githubusercontent.com/NurTheDev/NurTheDev/output/snake.svg" alt="Snake animation" />)
+<img src="https://raw.githubusercontent.com/NurTheDev/NurTheDev/output/snake.svg" alt="Snake animation" />
 
-[//]: # ()
-[//]: # (###)
+###
 
-[//]: # ()
-[//]: # (<div align="center">)
-
-[//]: # (  <img src="https://profile-counter.glitch.me/NurTheDev/count.svg?" alt="NurTheDev profile counter" />)
-
-[//]: # (</div>)
+<div align="center">
+  <img src="https://profile-counter.glitch.me/NurTheDev/count.svg?" alt="NurTheDev profile counter" />
+</div>
 
 ###
