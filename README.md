@@ -32,7 +32,6 @@ Linkdin: nurthedev
 /// <summary>
 /// Skilled Full Stack Developer specializing in React & Node.js.
 /// Available for freelance projects, full-time positions, or consulting.
-/// 2+ years of experience building modern web applications.
 /// Ready for exciting projects IMMEDIATELY!
 /// </summary>
 
@@ -50,7 +49,7 @@ class DEVELOPER_INFO {
 
 // Platforms
 const PLATFORMS = {
-   frontend: ["React", "Next.js", "Vue.js"],
+   frontend: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
    backend: ["Node.js", "Express", "MongoDB"],
    mobile: ["React Native"],
    cloud: ["Vercel", "Netlify"]
