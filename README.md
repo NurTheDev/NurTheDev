@@ -14,33 +14,210 @@ NurTheDev@github
 Name: Nur Islam
 Pronouns: He/Him
 Location: Dhaka, Bangladesh
-Uptime : ∞ Years
+Uptime : 22 Years
 OS: Arch Linux x86_64
 Shell: zsh 5.9
 Kernel : Linux
 IDE : WebStorm
-Learning: JavaScript, Node.js, Express, React, MongoDB
+Expertise: JavaScript, Node.js, Express, React, MongoDB
 Hobbies: Cooding, Traveling, Gaming
 Favourite Timepass: Doing Nothing
 Email: nur756.islam@gmail.com
 Linkdin: nurthedev
 ```
 <br>
-<img align='right' src="https://github.com/user-attachments/assets/8c749c14-d44c-4647-8983-86626e4aba1e" width="25%"> 
+# 👨‍💻 NurTheDev - Full Stack Developer
+
+```javascript
+/// <summary>
+/// Skilled Full Stack Developer specializing in React & Node.js.
+/// Available for freelance projects, full-time positions, or consulting.
+/// 2+ years of experience building modern web applications.
+/// Ready for exciting projects IMMEDIATELY!
+/// </summary>
+
+class DEVELOPER_INFO {
+   constructor() {
+       this.name = "Nur Islam";
+       this.title = "Full Stack Developer";
+       this.email = "nur756.islam@gmail.com";
+       this.phone = "+8801957282954";
+       this.location = ["Remote", "Available Worldwide"];
+       this.available = true;
+       this.experience = "constantly.levelingUp(📦 personalProjects)";
+   }
+}
+
+// Platforms
+const PLATFORMS = {
+   frontend: ["React", "Next.js", "Vue.js"],
+   backend: ["Node.js", "Express", "MongoDB"],
+   mobile: ["React Native"],
+   cloud: ["Vercel", "Netlify"]
+};
+
+// Programming Languages
+const LANGUAGES = {
+    expert: ["JavaScript"],
+    proficient: ["HTML5", "CSS3"],
+    learning: ["TypeScript", "SCSS"]
+};
 
 
-### SKILLS <img src="https://media.giphy.com/media/kkQsJyJBMZsk0/giphy.gif" width="60">
->>Programming Language : JavaScript (MERN)<br>
->>OS Knowladge         : Linux | Widnows | MacOS <br>
->>Framworks            : Bootstrap | Tailwind | React <br>
->>Cyber Security Enthusiast
-<br>
-<hr width=100%/>
-<br>
+// Development Tools
+const TOOLS = {
+    versionControl: ["Git", "GitHub"],
+    editors: ["VS Code"],
+    design: ["Figma"],
+    database: ["MongoDB"],
+    testing: ["Jest"],
+    deployment: ["Vercel", "Netlify", "GitHub Actions"]
+};
+
+
+// Project-Based Experience
+class PROJECT_EXPERIENCE {
+    static personalProjects() {
+        return {
+            type: "Self-driven Learning",
+            duration: "2023 - Present",
+            focus: "MERN Stack Development",
+            highlights: [
+                "Built 3+ full stack applications using React and Node.js",
+                "Practiced component-based architecture and REST API integration",
+                "Learned Git, GitHub, and deployment workflows using Vercel/Netlify",
+                "Improving problem-solving by building clones and utilities"
+            ]
+        };
+    }
+
+    static openSource() {
+        return {
+            type: "Exploring Open Source",
+            status: "In Progress",
+            focus: "GitHub Contributions",
+            goals: [
+                "Contribute to beginner-friendly React/Node repositories",
+                "Write clean, readable pull requests and documentation",
+                "Engage with maintainers and understand real-world codebases"
+            ]
+        };
+    }
+}
+
+
+// Skills Assessment
+const SKILL_LEVELS = {
+   react: "⭐⭐⭐⭐⭐",
+   javascript: "⭐⭐⭐⭐⭐",
+   nodejs: "⭐⭐⭐⭐⭐",
+   typescript: "⭐⭐⭐⭐",
+   mongodb: "⭐⭐⭐⭐",
+   firebase: "⭐⭐⭐⭐⭐",
+   tailwind: "⭐⭐⭐⭐⭐"
+};
+
+// Contact Information
+class CONTACT {
+   static getInTouch() {
+       return {
+           email: "nur756.islam@gmail.com",
+           github: "https://github.com/NurTheDev",
+           linkedin: "https://www.linkedin.com/in/nurthedev/",
+           portfolio: "https://nurthedev.vercel.app",
+           availability: "Available for new projects",
+           timezone: "UTC+6 (Flexible)"
+       };
+   }
+}
+
+// Current Status
+const STATUS = {
+   lookingFor: [
+       "Full Stack Developer positions",
+       "React/Node.js projects",
+       "E-commerce development",
+       "Freelance opportunities"
+   ],
+   currentlyWorking: "Building awesome web applications",
+   nextGoal: "Contributing to open source projects",
+};
+
+// Let's connect and build something amazing together! 🚀
+console.log("Ready to collaborate on your next project!");
+
+export default NurTheDev;
+```
+
+## 🔥 GitHub Analytics
+
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=NurTheDev&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=NurTheDev&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=NurTheDev&show_icons=true&theme=radical)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=NurTheDev&layout=compact&theme=radical)
+
 </div>
+
+## 🎯 Featured Projects
+
+### 🛍️ [Exclusive E-commerce Platform](https://github.com/NurTheDev/Exclusive-e-commerce)
+- **Tech Stack**: React, Firebase, Tailwind CSS
+- **Features**: Authentication, Cart, Payment Integration
+- **Status**: ✅ Live & Active
+
+### 💼 Personal Portfolio
+- **Tech Stack**: Next.js, TypeScript, Framer Motion
+- **Features**: Dark Mode, SEO Optimized, Responsive
+- **Status**: 🚧 In Progress
+
+### ✅ Task Management App
+- **Tech Stack**: React, Node.js, MongoDB
+- **Features**: Real-time Updates, Team Collaboration, Analytics
+- **Status**: Completed
+
+## 💻 Tech Stack
+
+```javascript
+const techStack = {
+   frontend: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS'],
+   backend: ['Node.js', 'Express', 'MongoDB', 'Firebase'],
+   tools: ['Git', 'VS Code', 'webstorm', 'Figma'],
+};
+```
+
+## 📊 Coding Activity
+
+```javascript
+const codingStats = {
+   dailyAverage: "🙂 hours",
+   weeklyCommits: "🙂🙂",
+   favoriteTime: "Late night coding sessions",
+   productivity: "Peak performance after coffee ☕"
+};
+```
+
+## 🤝 Let's Connect!
+
+<div align="center">
+
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nur756.islam@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NurTheDev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nurthedev/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://nurthedev.vercel.app)
+
+</div>
+
+---
+
+<div align="center">
+ <i>⭐ If you find my work interesting, please consider giving it a star! ⭐</i>
+</div>
+
+---
+
+**💡 Always open to interesting conversations and collaboration opportunities!**
+
 
 ###
 <br>
@@ -50,71 +227,96 @@ Linkdin: nurthedev
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
-  <img width="12" />
+  
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo"  />
-  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
-  <img width="12" />
+ 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
-  <img width="12" />
+ 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" height="30" alt="androidstudio logo"  />
-  <img width="12" />
+ 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="30" alt="bootstrap logo"  />
-  <img width="12" />
+  
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg" height="30" alt="debian logo"  />
-  <img width="12" />
+  
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="30" alt="figma logo"  />
-  <img width="12" />
+ 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="30" alt="git logo"  />
-  <img width="12" />
+ 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="30" alt="linux logo"  />
-  <img width="12" />
+ 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="30" alt="mongodb logo"  />
-  <img width="12" />
+  
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="mysql logo"  />
-  <img width="12" />
+ 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="30" alt="nextjs logo"  />
-  <img width="12" />
+ 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="30" alt="nodejs logo"  />
-  <img width="12" />
+ 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" height="30" alt="npm logo"  />
-  <img width="12" />
+
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" height="30" alt="sass logo"  />
 </div>
 
 ###
 
-<div align="left">
-  <a href="https://www.instagram.com/ariyan.khan_?igsh=MWR4NHFqamJlNTFiZg==" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
-  </a>
-  <a href="https://discord.com/NurTheDev" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo"  />
-  </a>
-  <a href="NurTheDev.islam@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
-  </a>
-  <a href="https://www.linkedin.com/in/nur-islam1/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
-  </a>
-  <a href="https://www.facebook.com/ariyan.khan.ayan756/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Facebook&logo=facebook&label=&color=1877F2&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="facebook logo"  />
-  </a>
-  <a href="01957282954" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Whatsapp&logo=whatsapp&label=&color=25D366&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="whatsapp logo"  />
-  </a>
-</div>
+[//]: # (<div align="left">)
 
-###
+[//]: # (  <a href="https://www.instagram.com/i.m.nurislam" target="_blank">)
 
-<br clear="both">
+[//]: # (    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />)
 
-<img src="https://raw.githubusercontent.com/NurTheDev/NurTheDev/output/snake.svg" alt="Snake animation" />
+[//]: # (  </a>)
 
-###
+[//]: # (  <a href="https://discord.com/NurTheDev" target="_blank">)
 
-<div align="center">
-  <img src="https://profile-counter.glitch.me/NurTheDev/count.svg?"  />
-</div>
+[//]: # (    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo"  />)
+
+[//]: # (  </a>)
+
+[//]: # (  <a href="mailto:nur756.islam@gmail.com" target="_blank">)
+
+[//]: # (    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />)
+
+[//]: # (  </a>)
+
+[//]: # (  <a href="https://www.linkedin.com/in/nur-islam1/" target="_blank">)
+
+[//]: # (    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />)
+
+[//]: # (  </a>)
+
+[//]: # (  <a href="https://www.facebook.com/nurthedev" target="_blank">)
+
+[//]: # (    <img src="https://img.shields.io/static/v1?message=Facebook&logo=facebook&label=&color=1877F2&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="facebook logo"  />)
+
+[//]: # (  </a>)
+
+[//]: # (  <a href="https://wa.me/01957282954" target="_blank">)
+
+[//]: # (    <img src="https://img.shields.io/static/v1?message=Whatsapp&logo=whatsapp&label=&color=25D366&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="whatsapp logo"  />)
+
+[//]: # (  </a>)
+
+[//]: # (</div>)
+
+[//]: # ()
+[//]: # (###)
+
+[//]: # ()
+[//]: # (<br clear="both">)
+
+[//]: # ()
+[//]: # (<img src="https://raw.githubusercontent.com/NurTheDev/NurTheDev/output/snake.svg" alt="Snake animation" />)
+
+[//]: # ()
+[//]: # (###)
+
+[//]: # ()
+[//]: # (<div align="center">)
+
+[//]: # (  <img src="https://profile-counter.glitch.me/NurTheDev/count.svg?" alt="NurTheDev profile counter" />)
+
+[//]: # (</div>)
 
 ###
