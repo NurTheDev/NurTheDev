@@ -26,7 +26,7 @@ Email: nur756.islam@gmail.com
 Linkdin: nurthedev
 ```
 <br>
-# 👨‍💻 NurTheDev - Full Stack Developer
+# 👨‍💻 Nur-Islam - Full Stack Developer
 
 ```javascript
 /// <summary>
