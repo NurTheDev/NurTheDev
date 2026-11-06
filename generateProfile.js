@@ -1,97 +1,83 @@
-const fs = require('fs');
-const path = require('path');
-const https = require('https');
+// Updates the "recent projects" list inside README.md.
+// Needs Node 18 or newer (built-in fetch). Run: node update-readme.js
 
-// Load profile data
-const profilePath = path.join(__dirname, 'profile.json');
-const profile = JSON.parse(fs.readFileSync(profilePath, 'utf-8'));
+const fs = require("fs");
+const path = require("path");
 
-// Helper to format array fields
-const formatArray = arr => arr && arr.length ? arr.join(', ') : '';
+const USERNAME = "NurTheDev";
+const README = path.join(__dirname, "README.md");
+const START = "<!-- RECENT_PROJECTS:START -->";
+const END = "<!-- RECENT_PROJECTS:END -->";
 
-// Helper to calculate age from birthdate
-function calculateAge(birthdate) {
-  const birth = new Date(birthdate);
-  const today = new Date('2025-07-17'); // Use current date
-  let age = today.getFullYear() - birth.getFullYear();
-  const m = today.getMonth() - birth.getMonth();
-  if (m < 0 || (m === 0 && today.getDate() < birth.getDate())) {
-    age--;
-  }
-  return age;
+async function fetchRepos() {
+  const headers = {
+    "User-Agent": "readme-updater",
+    Accept: "application/vnd.github+json",
+  };
+  // In GitHub Actions, pass secrets.GITHUB_TOKEN as GITHUB_TOKEN for a higher rate limit.
+  if (process.env.GITHUB_TOKEN)
+    headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
+
+  const url = `https://api.github.com/users/${USERNAME}/repos?type=owner&sort=pushed&per_page=100`;
+  const res = await fetch(url, { headers });
+  if (!res.ok) throw new Error(`GitHub API returned ${res.status}`);
+  return res.json();
 }
 
-// Fetch recent GitHub repos
-function fetchRecentRepos(username, count = 3) {
-  return new Promise((resolve, reject) => {
-    https.get(`https://api.github.com/users/${username}/repos?sort=updated&per_page=${count}`,
-      {
-        headers: {
-          'User-Agent': 'node.js',
-          'Accept': 'application/vnd.github.v3+json'
-        }
-      },
-      (res) => {
-        let data = '';
-        res.on('data', chunk => data += chunk);
-        res.on('end', () => {
-          try {
-            const repos = JSON.parse(data);
-            resolve(repos);
-          } catch (e) {
-            reject(e);
-          }
-        });
-      }
-    ).on('error', reject);
-  });
+// Keep only real projects: no forks, no archived repos, not the profile repo,
+// and only repos that have a description.
+function pickProjects(repos, count = 3) {
+  return repos
+    .filter(
+      (r) => !r.fork && !r.archived && r.name !== USERNAME && r.description,
+    )
+    .sort((a, b) => new Date(b.pushed_at) - new Date(a.pushed_at))
+    .slice(0, count);
+}
+
+function toMarkdown(repos) {
+  return repos
+    .map((r) => {
+      const description = r.description.replace(/\s+/g, " ").trim();
+      const language = r.language || "n/a";
+      const date = r.pushed_at.slice(0, 10); // same format on every machine
+      return `- [${r.name}](${r.html_url}): ${description} <sub>(${language}, updated ${date})</sub>`;
+    })
+    .join("\n");
+}
+
+// Plain string slicing instead of a regex: no special characters to worry about.
+function replaceBetweenMarkers(text, replacement) {
+  const start = text.indexOf(START);
+  const end = text.indexOf(END);
+  if (start === -1 || end === -1 || end < start) {
+    throw new Error(`Could not find ${START} and ${END} in README.md`);
+  }
+  return (
+    text.slice(0, start + START.length) +
+    "\n" +
+    replacement +
+    "\n" +
+    text.slice(end)
+  );
 }
 
 async function main() {
-  const age = profile.birthdate ? calculateAge(profile.birthdate) : 'N/A';
+  const readme = fs.readFileSync(README, "utf-8");
+  const projects = pickProjects(await fetchRepos());
+  if (projects.length === 0) throw new Error("No repos matched the filter");
 
-  // Fetch recent projects from GitHub
-  let recentProjectsMd = '';
-  try {
-    const repos = await fetchRecentRepos('NurTheDev', 3);
-    recentProjectsMd = '## 🎯 Recent Projects\n';
-    repos.forEach(repo => {
-      recentProjectsMd += `\n### [${repo.name}](${repo.html_url})\n- **Description**: ${repo.description || 'No description'}\n- **Language**: ${repo.language || 'N/A'}\n- **Updated**: ${new Date(repo.updated_at).toLocaleDateString()}\n`;
-    });
-  } catch (e) {
-    recentProjectsMd = '## 🎯 Recent Projects\n\n_Failed to fetch projects from GitHub._';
+  const updated = replaceBetweenMarkers(readme, toMarkdown(projects));
+  if (updated === readme) {
+    console.log("No changes.");
+    return;
   }
-
-  // Generate Markdown block
-  const markdown = `NurTheDev@github\n-------------------------\nName: ${profile.name}\nPronouns: ${profile.pronouns}\nLocation: ${profile.location}\nUptime : ${age} Years\nOS: ${profile.os}\nShell: ${profile.shell}\nKernel : ${profile.kernel}\nIDE : ${profile.ide}\nExpertise: JavaScript, Node.js, Express, React, MongoDB\nHobbies: ${formatArray(profile.hobbies)}\nFavourite Timepass: ${profile.favouriteTimepass}\nEmail: ${profile.email}\nLinkdin: ${profile.linkedin}\n`;
-
-  // Option 1: Print to console
-  console.log('\n--- Generated Profile Section ---\n');
-  console.log(markdown);
-  console.log(recentProjectsMd);
-
-  // Option 2: Replace section in README.md
-  const readmePath = path.join(__dirname, 'README.md');
-  let readme = fs.readFileSync(readmePath, 'utf-8');
-
-  // Replace profile block
-  const profileBlockRegex = /```csharp\nNurTheDev@github[\s\S]*?Linkdin:.*?\n```/;
-  const newBlock = '```csharp\n' + markdown + '```';
-  if (profileBlockRegex.test(readme)) {
-    readme = readme.replace(profileBlockRegex, newBlock);
-  }
-
-  // Replace Recent Projects section
-  const recentProjectsRegex = /## 🎯 Recent Projects[\s\S]*?(?=## |$)/;
-  if (recentProjectsRegex.test(readme)) {
-    readme = readme.replace(recentProjectsRegex, recentProjectsMd + '\n');
-  } else {
-    // If not found, append after profile block
-    readme = readme.replace(newBlock, newBlock + '\n\n' + recentProjectsMd + '\n');
-  }
-
-  fs.writeFileSync(readmePath, readme, 'utf-8');
-  console.log('\nREADME.md updated with dynamic profile and recent projects!');
+  fs.writeFileSync(README, updated, "utf-8");
+  console.log("README.md updated.");
 }
 
-main();
+// If anything fails, stop and leave README.md exactly as it was.
+main().catch((err) => {
+  console.error(err.message);
+  process.exit(1);
+});

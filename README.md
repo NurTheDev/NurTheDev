@@ -1,6 +1,6 @@
 <h1 align="center"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=42&duration=2800&pause=2000&width=940&height=70&lines=Hey%2C+I'm+Nur.+Welcome+to+my+Profile+%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB" alt="Typing SVG" /></h1>
-<img src="https://github.com/user-attachments/assets/96adbac6-fc66-49f3-8ffe-b4ae7c71b0a6" width="100%"> 
-<!-- <img src="https://github.com/user-attachments/assets/8ea4488d-e850-4396-9987-14dfbe6f0e64" width="100%">  -->
+<img src="assets/board-nur.svg" width="100%">
+
 
 ```zsh
 > neofetch
@@ -25,290 +25,125 @@ Favourite Timepass: Doing Nothing
 Email: nur756.islam@gmail.com
 Linkdin: nurthedev
 ```
-<br>
-# 👨‍💻 Nur-Islam - Full Stack Developer
 
-```javascript
-/// <summary>
-/// Skilled Full Stack Developer specializing in React & Node.js.
-/// Available for freelance projects, full-time positions, or consulting.
-/// Ready for exciting projects IMMEDIATELY!
-/// </summary>
+<img src="https://github.com/user-attachments/assets/8ea4488d-e850-4396-9987-14dfbe6f0e64" width="100%">
+<p align="center">
+  <a href="https://nurthedev.is-a.dev"><img src="https://img.shields.io/badge/Portfolio-nurthedev.vercel.app-cba6f7?style=flat-square&labelColor=1e1e2e" alt="Portfolio: nurthedev.vercel.app"></a>
+  <a href="https://www.linkedin.com/in/nurthedev/"><img src="https://img.shields.io/badge/LinkedIn-nurthedev-89b4fa?style=flat-square&labelColor=1e1e2e" alt="LinkedIn: nurthedev"></a>
+  <a href="mailto:nur756.islam@gmail.com"><img src="https://img.shields.io/badge/Email-nur756.islam%40gmail.com-a6e3a1?style=flat-square&labelColor=1e1e2e" alt="Email: nur756.islam@gmail.com"></a>
+</p>
 
-class DEVELOPER_INFO {
-   constructor() {
-       this.name = "Nur Islam";
-       this.title = "Full Stack Developer";
-       this.email = "nur756.islam@gmail.com";
-       this.phone = "+8801957282954";
-       this.location = ["Remote", "Available Worldwide"];
-       this.available = true;
-       this.experience = "constantly.levelingUp(📦 personalProjects)";
-   }
-}
+I build MERN apps with real auth and real data, from React interfaces to Express APIs. I'm a junior developer who likes building complete products, not only pages: an e-commerce platform with local payments, a published npm package, and a portfolio designed like an operating system.
 
-// Platforms
-const PLATFORMS = {
-   frontend: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
-   backend: ["Node.js", "Express", "MongoDB"],
-   mobile: ["React Native"],
-   cloud: ["Vercel", "Netlify"]
-};
+**Open to junior full-stack roles and internships, in Dhaka or remote.**
 
-// Programming Languages
-const LANGUAGES = {
-    expert: ["JavaScript"],
-    proficient: ["HTML5", "CSS3"],
-    learning: ["TypeScript", "SCSS"]
-};
+## Projects
 
+<table>
+<tr>
+<td valign="top" width="50%">
 
-// Development Tools
-const TOOLS = {
-    versionControl: ["Git", "GitHub"],
-    editors: ["VS Code"],
-    design: ["Figma"],
-    database: ["MongoDB"],
-    testing: ["Jest"],
-    deployment: ["Vercel", "Netlify", "GitHub Actions"]
-};
+### [Clicon](https://github.com/NurTheDev/clicon)
 
+A full-stack e-commerce platform for Bangladesh. It includes a customer storefront, an admin dashboard, and an Express API with SSLCommerz payments, real-time features through Socket.IO, coupons, invoices, and image uploads.
 
-// Project-Based Experience
-class PROJECT_EXPERIENCE {
-    static personalProjects() {
-        return {
-            type: "Self-driven Learning",
-            duration: "2023 - Present",
-            focus: "MERN Stack Development",
-            highlights: [
-                "Built 3+ full stack applications using React and Node.js",
-                "Practiced component-based architecture and REST API integration",
-                "Learned Git, GitHub, and deployment workflows using Vercel/Netlify",
-                "Improving problem-solving by building clones and utilities"
-            ]
-        };
-    }
+<sub>React, TypeScript, Tailwind CSS, Node.js, Express, MongoDB</sub>
 
-    static openSource() {
-        return {
-            type: "Exploring Open Source",
-            status: "In Progress",
-            focus: "GitHub Contributions",
-            goals: [
-                "Contribute to beginner-friendly React/Node repositories",
-                "Write clean, readable pull requests and documentation",
-                "Engage with maintainers and understand real-world codebases"
-            ]
-        };
-    }
-}
+</td>
+<td valign="top" width="50%">
 
+### [nur-create-backend](https://www.npmjs.com/package/nur-create-backend)
 
-// Skills Assessment
-const SKILL_LEVELS = {
-   react: "⭐⭐⭐⭐⭐",
-   javascript: "⭐⭐⭐⭐⭐",
-   nodejs: "⭐⭐⭐⭐⭐",
-   typescript: "⭐⭐⭐⭐",
-   mongodb: "⭐⭐⭐⭐",
-   firebase: "⭐⭐⭐⭐⭐",
-   tailwind: "⭐⭐⭐⭐⭐"
-};
+A command-line tool that creates an Express and MongoDB backend with one command. It sets up versioned routes, error handling, and sample models. Published on npm.
 
-// Contact Information
-class CONTACT {
-   static getInTouch() {
-       return {
-           email: "nur756.islam@gmail.com",
-           github: "https://github.com/NurTheDev",
-           linkedin: "https://www.linkedin.com/in/nurthedev/",
-           portfolio: "https://nurthedev.vercel.app",
-           availability: "Available for new projects",
-           timezone: "UTC+6 (Flexible)"
-       };
-   }
-}
-
-// Current Status
-const STATUS = {
-   lookingFor: [
-       "Full Stack Developer positions",
-       "React/Node.js projects",
-       "E-commerce development",
-       "Freelance opportunities"
-   ],
-   currentlyWorking: "Building awesome web applications",
-   nextGoal: "Contributing to open source projects",
-};
-
-// Let's connect and build something amazing together! 🚀
-console.log("Ready to collaborate on your next project!");
-
-export default NurTheDev;
+```bash
+npx nur-create-backend my-api
 ```
 
-## 🔥 GitHub Analytics
+<sub>Node.js, Express, Mongoose. [Source code](https://github.com/NurTheDev/create-backend-app-npm)</sub>
 
-<div align="center">
+</td>
+</tr>
+<tr>
+<td valign="top" width="50%">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=NurTheDev&show_icons=true&theme=radical)
+### [Nur OS](https://nurthedev.vercel.app)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=NurTheDev&layout=compact&theme=radical)
+My portfolio, built as a small desktop you can explore. It has windows, case studies, a résumé, and an assistant that answers questions about me.
 
-</div>
+<sub>Live on Vercel</sub>
 
-## 🎯 Featured Projects
+</td>
+<td valign="top" width="50%">
 
-### 🛍️ [Exclusive E-commerce Platform](https://github.com/NurTheDev/Exclusive-e-commerce)
-- **Tech Stack**: React, Firebase, Tailwind CSS
-- **Features**: Authentication, Cart, Payment Integration
-- **Status**: ✅ Live & Active
+### [Exclusive](https://github.com/NurTheDev/Exclusive-e-commerce)
 
-### 💼 Personal Portfolio
-- **Tech Stack**: Next.js, TypeScript, Framer Motion
-- **Features**: Dark Mode, SEO Optimized, Responsive
-- **Status**: 🚧 In Progress
+A responsive online store with a product catalog, search, cart, wishlist, reviews, and a dark mode. [Live demo](https://exclusive-stroe.vercel.app/)
 
-### ✅ Task Management App
-- **Tech Stack**: React, Node.js, MongoDB
-- **Features**: Real-time Updates, Team Collaboration, Analytics
-- **Status**: Completed
+<sub>React, Redux Toolkit, Firebase, Tailwind CSS</sub>
 
-## 💻 Tech Stack
+</td>
+</tr>
+</table>
 
-```javascript
-const techStack = {
-   frontend: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS'],
-   backend: ['Node.js', 'Express', 'MongoDB', 'Firebase'],
-   tools: ['Git', 'VS Code', 'webstorm', 'Figma'],
-};
-```
+Also worth a look:
 
-## 📊 Coding Activity
+- [miniExpress](https://github.com/NurTheDev/miniExpress): an Express-style framework written from scratch, with middleware, routing, and a body parser.
+- [BD Screens](https://github.com/NurTheDev/BD-Screens): a streaming web app built with React.
+- [students-management](https://github.com/NurTheDev/students-management): a student management project that started from my own nur-create-backend scaffold.
 
-```javascript
-const codingStats = {
-   dailyAverage: "🙂 hours",
-   weeklyCommits: "🙂🙂",
-   favoriteTime: "Late night coding sessions",
-   productivity: "Peak performance after coffee ☕"
-};
-```
+I'm also working on an idea called **Kosai Chai (কসাই চাই)**, a Bengali-language app for booking Qurbani butchers in Dhaka. You can read the case study on my [portfolio](https://nurthedev.vercel.app).
 
-## 🤝 Let's Connect!
+## Stack
 
-<div align="center">
+<table>
+<tr>
+<td><b>Frontend</b></td>
+<td>
+<img src="https://img.shields.io/badge/HTML5-1e1e2e?style=flat-square&logo=html5&logoColor=E34F26" alt="HTML5">
+<img src="https://img.shields.io/badge/CSS3-1e1e2e?style=flat-square&logo=css3&logoColor=1572B6" alt="CSS3">
+<img src="https://img.shields.io/badge/JavaScript-1e1e2e?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript">
+<img src="https://img.shields.io/badge/TypeScript-1e1e2e?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript">
+<img src="https://img.shields.io/badge/React-1e1e2e?style=flat-square&logo=react&logoColor=61DAFB" alt="React">
+<img src="https://img.shields.io/badge/Redux-1e1e2e?style=flat-square&logo=redux&logoColor=764ABC" alt="Redux">
+<img src="https://img.shields.io/badge/Tailwind%20CSS-1e1e2e?style=flat-square&logo=tailwindcss&logoColor=06B6D4" alt="Tailwind CSS">
+<img src="https://img.shields.io/badge/Bootstrap-1e1e2e?style=flat-square&logo=bootstrap&logoColor=7952B3" alt="Bootstrap">
+</td>
+</tr>
+<tr>
+<td><b>Backend</b></td>
+<td>
+<img src="https://img.shields.io/badge/Node.js-1e1e2e?style=flat-square&logo=nodedotjs&logoColor=5FA04E" alt="Node.js">
+<img src="https://img.shields.io/badge/Express-1e1e2e?style=flat-square&logo=express&logoColor=white" alt="Express">
+<img src="https://img.shields.io/badge/MongoDB-1e1e2e?style=flat-square&logo=mongodb&logoColor=47A248" alt="MongoDB">
+<img src="https://img.shields.io/badge/Mongoose-1e1e2e?style=flat-square&logo=mongoose&logoColor=f38ba8" alt="Mongoose">
+<img src="https://img.shields.io/badge/Socket.IO-1e1e2e?style=flat-square&logo=socketdotio&logoColor=white" alt="Socket.IO">
+<img src="https://img.shields.io/badge/Firebase-1e1e2e?style=flat-square&logo=firebase&logoColor=FFCA28" alt="Firebase">
+</td>
+</tr>
+<tr>
+<td><b>Tools</b></td>
+<td>
+<img src="https://img.shields.io/badge/Git-1e1e2e?style=flat-square&logo=git&logoColor=F05032" alt="Git">
+<img src="https://img.shields.io/badge/GitHub-1e1e2e?style=flat-square&logo=github&logoColor=white" alt="GitHub">
+<img src="https://img.shields.io/badge/Figma-1e1e2e?style=flat-square&logo=figma&logoColor=F24E1E" alt="Figma">
+<img src="https://img.shields.io/badge/Vercel-1e1e2e?style=flat-square&logo=vercel&logoColor=white" alt="Vercel">
+<img src="https://img.shields.io/badge/Arch%20Linux-1e1e2e?style=flat-square&logo=archlinux&logoColor=1793D1" alt="Arch Linux">
+</td>
+</tr>
+</table>
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nur756.islam@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NurTheDev)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nurthedev/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://nurthedev.vercel.app)
+Currently learning: PostgreSQL, TypeScript in depth, and advanced React patterns.
 
-</div>
+## Background
 
----
+- Head of IT at Diction Coaching
+- MERN Stack certification (A+) from Creative IT Institute
 
-<div align="center">
- <i>⭐ If you find my work interesting, please consider giving it a star! ⭐</i>
-</div>
+## Contact
 
----
-
-**💡 Always open to interesting conversations and collaboration opportunities!**
-
-
-###
-<br>
-<img align="right" height="150" src="https://camo.githubusercontent.com/5046cb083418fd1922b7f5990e594c3bb06f5d87e5516cd8839ae0aa48b3aec4/68747470733a2f2f696d616765732e73717561726573706163652d63646e2e636f6d2f636f6e74656e742f76312f3537363966633430316236333162616231616464623261622f313534313538303631313632342d5445363451474b524a4738535741495553374e532f6b6531375a77644742546f6464493870446d34386b506f73776c7a6a53564d4d2d53784f703743563539425a772d7a505067646e346a557756634a45315a7657515578776b6d794578676c4e714770304976544a5a616d574c49327a76595748384b332d735f3479737a63703272795449304871544f6161556f68724938504936465879386339505774426c7141566c555335697a7064634958445a71445976707252715a32395077306f2f636f64696e672d667265616b2e676966"  />
-
-###
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
-  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo"  />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
- 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
- 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" height="30" alt="androidstudio logo"  />
- 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="30" alt="bootstrap logo"  />
-  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg" height="30" alt="debian logo"  />
-  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="30" alt="figma logo"  />
- 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="30" alt="git logo"  />
- 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="30" alt="linux logo"  />
- 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="30" alt="mongodb logo"  />
-  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="mysql logo"  />
- 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="30" alt="nextjs logo"  />
- 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="30" alt="nodejs logo"  />
- 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" height="30" alt="npm logo"  />
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" height="30" alt="sass logo"  />
-</div>
-
-###
-
-[//]: # (<div align="left">)
-
-[//]: # (  <a href="https://www.instagram.com/i.m.nurislam" target="_blank">)
-
-[//]: # (    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />)
-
-[//]: # (  </a>)
-
-[//]: # (  <a href="https://discord.com/NurTheDev" target="_blank">)
-
-[//]: # (    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo"  />)
-
-[//]: # (  </a>)
-
-[//]: # (  <a href="mailto:nur756.islam@gmail.com" target="_blank">)
-
-[//]: # (    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />)
-
-[//]: # (  </a>)
-
-[//]: # (  <a href="https://www.linkedin.com/in/nur-islam1/" target="_blank">)
-
-[//]: # (    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />)
-
-[//]: # (  </a>)
-
-[//]: # (  <a href="https://www.facebook.com/nurthedev" target="_blank">)
-
-[//]: # (    <img src="https://img.shields.io/static/v1?message=Facebook&logo=facebook&label=&color=1877F2&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="facebook logo"  />)
-
-[//]: # (  </a>)
-
-[//]: # (  <a href="https://wa.me/01957282954" target="_blank">)
-
-[//]: # (    <img src="https://img.shields.io/static/v1?message=Whatsapp&logo=whatsapp&label=&color=25D366&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="whatsapp logo"  />)
-
-[//]: # (  </a>)
-
-[//]: # (</div>)
-
-###
+The fastest way to reach me is call: [+8801957282954] or email: [nur756.islam@gmail.com](mailto:nur756.islam@gmail.com). You can also find me on [LinkedIn](https://www.linkedin.com/in/nurthedev/).
 
 <br clear="both">
 
 <img src="https://raw.githubusercontent.com/NurTheDev/NurTheDev/output/snake.svg" alt="Snake animation" />
-
-###
-
-<div align="center">
-  <img src="https://profile-counter.glitch.me/NurTheDev/count.svg?" alt="NurTheDev profile counter" />
-</div>
-
-###
