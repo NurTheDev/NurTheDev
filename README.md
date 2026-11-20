@@ -14,7 +14,7 @@ NurTheDev@github
 Name: Nur Islam
 Pronouns: He/Him
 Location: Dhaka, Bangladesh
-Uptime : 22 Years
+Uptime : 24 Years
 OS: Arch Linux x86_64
 Shell: zsh 5.9
 Kernel : Linux
